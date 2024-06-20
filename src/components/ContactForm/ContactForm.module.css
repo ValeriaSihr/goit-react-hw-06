@@ -23,15 +23,17 @@ font-size: 20px;
   width: auto;
   height: 30px;
   border-radius: 10px;
-  border: none;
+  border: 1px solid rgb(245, 245, 245);
   margin-bottom: 20px;
-  background-color: #FFFACD;
-  color: black;
+  background-color: transparent;
+  color: white;
   padding: 0 20px;
   
 
   &:hover{
-   background-color: #FFE4B5;
+   background-color: #747372;
+   transition: 500ms ease;
+  
   }
 }
 
